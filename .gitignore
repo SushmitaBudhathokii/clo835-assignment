@@ -1,5 +1,6 @@
 # Ignore SSH private keys
 *.pem
+*.pub
 *.key
 id_rsa
 id_dsa
