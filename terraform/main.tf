@@ -12,7 +12,7 @@ resource "aws_ecr_repository" "mysql" {
 
 resource "aws_key_pair" "assignment_key" {
   key_name   = "sushmita-key"
-  public_key = file("~/.ssh/sushmita-key.pub")
+  public_key = file("/home/ec2-user/environment/clo835-assignment/terraform/sushmita-key.pub")
 }
 
 
